@@ -8,7 +8,7 @@ public class AccountRegistrationPage extends BasePage {
 	public AccountRegistrationPage(WebDriver driver) {
 		super(driver);
 	}
-
+        // adding logger in future.
 	// Elements
 		@FindBy(name = "firstname")
 		WebElement txtFirstname;
